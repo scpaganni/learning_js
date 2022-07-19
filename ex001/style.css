@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root {
+  --color00: #ff9b54;
+  --color01: #ff7f51;
+  --color02: #ce4257;
+  --color03: #720026;
+  --color04: #4f000b;
+}
+
+body {
+  background-color: #ff9b549c;
+}
+
+h1 {
+  color: var(--color04);
+  text-shadow: 1px 1px var(--color03);
+  text-align: center;
+  font-size: 32px;
+}
+
+p {
+  color: #ce4257;
+  text-align: justify;
+  text-indent: 16px;
+}
