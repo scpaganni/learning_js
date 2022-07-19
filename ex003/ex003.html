@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Curso de JavaScript</title>
+</head>
+<body>
+    <h1>Tratamento de Dados</h1>
+    <!-- <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        window.alert('É um prazer te conhecer, ' + nome) // O sinal de + é concatenação de dados
+    </script> -->
+    <!-- <script>
+        var n1 = window.prompt('Digite um número') // É tratado como string
+        var n2 = window.prompt('Digite outro número') //É tratado como string
+        var soma = n1 + n2 // O JavaScript não sabe se é adição ou concatenação de dados
+        window.alert('A soma dos valores é ' + soma)
+        // (number + number) para adição
+        // (string + string) para concatenação de dados
+    </script> -->
+    <script>
+        // Alterando o tipo de dado string para number
+        var n1 = Number.parseInt(prompt('Digite um número')) // É tratado como number
+        var n2 = Number.parseInt(prompt('Digite outro número')) //É tratado como number
+        var soma = n1 + n2 // O JavaScript entende como adição
+        // window.alert('A soma é igual a ' + soma) feito usando concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`) // Usando Template String
+        // (number + number) para adição
+        // (string + string) para concatenação de dados
+        // Para converter de número para string é só usar String(n)
+        // Outra forma é utilizar n.toString()
+    </script>
+</body>
+</html>
