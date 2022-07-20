@@ -1,10 +1,10 @@
 O JavaScript possui várias famílias de operadores aritméticos
 
-- aritméticos (+ - \* / % \*\*)
-- atribuição
-- relacionais
-- lógicos
-- ternário
+- aritméticos ( + - \* / % \*\* )
+- atribuição ( = )
+- relacionais ( > < >= <= == != )
+- lógicos ( ! = negação, && = conjunção, || = disjunção )
+- ternário ( ? : )
 - typeof
 
 Ordem de precedência dos operadores aritméticos
@@ -13,6 +13,18 @@ Ordem de precedência dos operadores aritméticos
 - \*\* Potências
 - \* / % Multiplicação, Divisão e Resto da Divisão
 - \+ \- Soma e Subtração
+
+Ordem de precedência dos operadores lógicos
+
+1. negação
+2. conjunção
+3. disjunção
+
+Ordem de precedência dos operadores de forma geral
+
+1. aritméticos
+2. relacionais
+3. lógicos
 
 Auto-atribuição são atribuições a própria variável
 
