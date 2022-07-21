@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Curso de JavaScript</title>
+  </head>
+  <body>
+    <h1 id="title1">Iniciando Estudos com DOM</h1>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <main name="corpo">Estou hoje vencido, como se soubesse a verdade.</main>
+    <div>Estou hoje perplexo, como quem pensou e achou e esqueceu.</div>
+    <article class="artigo">
+      E à sensação de que tudo é sonho, como coisa real por dentro.
+    </article>
+    <aside class="periferico">
+      Desci dela pela janela das traseiras da casa.
+    </aside>
+
+    <script>
+      var prf = window.document.getElementsByTagName("p")[0];
+      window.document.write("Esta escrito assim: " + prf.innerText);
+      prf.style.backgroundColor = "white";
+
+      var h1 = window.document.getElementById("title1");
+      h1.style.color = "red";
+
+      var main = window.document.getElementsByName("corpo")[0];
+      main.style.color = "blue";
+
+      var artigo = window.document.getElementsByClassName("artigo")[0];
+      artigo.style.backgroundColor = "magenta";
+
+      var aside = window.document.querySelector("aside.periferico");
+      aside.style.backgroundColor = "grey";
+    </script>
+  </body>
+</html>

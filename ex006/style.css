@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-color: #6dd3ce;
+    color: black;
+    font: normal 20pt "Helvetica Neue",Helvetica,Arial;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
