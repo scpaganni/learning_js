@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+main {
+    background-color: #4CE0B3;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    color: #377771;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+main input {
+    padding: 10px;
+    margin: 20px;
+}
+
+div {
+    margin-left: 20px;
+    font-size: x-large;
+    color: #197278;
+}
+
+main strong {
+    color: #C44536;
+}
