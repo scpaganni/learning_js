@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ebdccb83;
+}
+
+main {
+    background-color: #FAF8D4;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #C3BAAA;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+input#vel {
+    margin-left: 50px;
+}
+
+input#verificar {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+div#res {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}

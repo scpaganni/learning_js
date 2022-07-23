@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Condições em JavaScript</title>
+  </head>
+  <body>
+    <main>
+      <h1>Sistema de Multas</h1>
+      <p>A velocidade do carro <input type="number" name="vel" id="vel" /></p>
+      <input type="button" value="Verificar" onclick="multa()" id="verificar" />
+      <div id="res"></div>
+    </main>
+
+    <script>
+      function multa() {
+        var vel = document.getElementById("vel");
+        var res = document.getElementById("res");
+        var n1 = Number(vel.value);
+        if (n1 <= 80) {
+          res.innerHTML = `Você está dirigindo corretamente, sua velocidade é ${n1}km`;
+        } else {
+          res.innerHTML = `Você está MULTADO, sua velocidade é ${n1}km`;
+        }
+      }
+    </script>
+  </body>
+</html>
