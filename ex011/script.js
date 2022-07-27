@@ -9,7 +9,7 @@ function carregar() {
     msg.innerHTML = `Agora são exatamente ${hora}:${minuto} horas`;
     if (hora >= 0 && hora < 12) {
       // Bom dia
-      trocaImagem.scr = "imagens/manha.jpg";
+      trocaImagem.src = "imagens/manha.jpg";
       document.body.style.background = "#e2cd9f";
     } else if (hora >= 12 && hora < 18) {
       // Boa tarde
